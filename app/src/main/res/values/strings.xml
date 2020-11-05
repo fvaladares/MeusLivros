@@ -3,4 +3,22 @@
     <string name="book_not_found">Livro não encontrado</string>
     <string name="book_title">Título</string>
     <string name="book_author">Autor</string>
+
+    <!--    Strings for the action bar menu-->
+    <string name="action_search">Pesquisar</string>
+    <string name="action_new_book">Novo livro</string>
+    <string name="action_info">Info</string>
+
+    <string name="hint_search">Procurar por Livro</string>
+
+    <string name="about_title">Meus Livros</string>
+    <string name="about_message">Desenvolvido por Fabricio</string>
+    <string name="about_button_site">Site</string>
+
+    <string name="form_label_title">Nome</string>
+    <string name="form_label_rating">Classificação</string>
+    <string name="form_label_author">Autor</string>
+
+    <string name="error_invalid_book">Livro não preenchido corretamente</string>
+    <string name="error_book_not_found">Livro não encontrado</string>
 </resources>

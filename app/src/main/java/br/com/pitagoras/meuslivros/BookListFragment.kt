@@ -38,6 +38,15 @@ class BookListFragment : ListFragment(), BookListView {
         presenter.showBookDetails(book)
     }
 
+    fun search(text: String) {
+        presenter.searchBook(text)
+    }
+
+    fun clearSearch() {
+        presenter.searchBook("")
+    }
+
+
     interface OnBookClickListener {
         fun onBookClick(book: Book)
     }
